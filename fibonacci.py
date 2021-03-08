@@ -19,4 +19,5 @@ def dynamic_fibonacci(n, memo = {}):
 if __name__ == '__main__':
     n = int(input('Number: '))
     res = dynamic_fibonacci(n)
+    #res = recursive_fibonacci(n)
     print(res)
